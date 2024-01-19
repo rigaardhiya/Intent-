@@ -24,7 +24,10 @@ class movedata : AppCompatActivity(), View.OnClickListener {
         val age = intent.getIntExtra(EXTRA_AGE, 0)
         val address = intent.getStringExtra(EXTRA_ADDRESS) //
         val gender = intent.getStringExtra(EXTRA_GENDER)
-        val text = "Name : $name, Your Age : $age ,Address: $address, Gender: $gender\""
+        val text = "Name : $name,"+ "\n" +
+                             "Your Age : $age ,"+ "\n" +
+                                "Address: $address," + "\n" +
+                                        "Gender: $gender"
         dataReceived.text = text
 
         val btn =findViewById<Button>(R.id.aku)

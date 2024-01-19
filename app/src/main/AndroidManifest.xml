@@ -12,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intentbelajar"
         tools:targetApi="31">
-        <activity
-            android:name=".profil"
-            android:exported="false" />
+
         <activity
             android:name=".movedata"
             android:exported="false" />
